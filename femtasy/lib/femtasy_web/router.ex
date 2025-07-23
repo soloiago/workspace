@@ -28,11 +28,6 @@ defmodule FemtasyWeb.Router do
     end
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", FemtasyWeb do
-  #   pipe_through :api
-  # end
-
   # Enable LiveDashboard and Swoosh mailbox preview in development
   if Application.compile_env(:femtasy, :dev_routes) do
     # If you want to use the LiveDashboard in production, you should put
